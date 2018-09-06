@@ -37,7 +37,7 @@ DCN中 Figure 2的过程，是DConv-layer的输出效果：输出的feature map�
 
 layer2, layer3，可以合并为一套Conv层反向传递模型，
 
-第[i+1]轮的损失函数BP信号`∂(loss)/∂(latent_parameter[i])，传递到layer2+3，为latent_parameter[i+1]
+第[i+1]轮的损失函数BP信号`∂(loss)/∂(latent_parameter[i])`，传递到layer2+3，为latent_parameter[i+1]
 
 量化latent parameter[i+1]为real parameter[i+1]，
 
