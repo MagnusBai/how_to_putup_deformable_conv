@@ -16,7 +16,7 @@ mask-rcnn中roialign pooling层，与 deformable conv层有什么相同、异同
 
 ## 2. 可学习的坐标偏移参数如何实现工程化
 
-以Deformable Convolution Layer为例（DConv层）。
+以Deformable Convolution Layer为例（后面简称DConv层）。
 
 ![im](https://i.imgur.com/AjDxteU.png)
 
